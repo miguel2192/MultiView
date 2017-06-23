@@ -1,0 +1,64 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.chart {
+    display: block;
+}
+
+.chart-info {
+    margin-left: 20px;
+}
+
+.chart-board {
+    margin-left: 20px;
+}
+
+.binPath path{
+    stroke: white;
+    stroke-width: 1px;
+    transition: opacity .5s;
+}
+
+.binPath text{
+    transition: opacity .5s;
+}
+
+.binPath:hover path{
+    opacity: 0.1;
+}
+
+.binPath text{
+    opacity: 0;
+    cursor: default;
+}
+
+.binPath:hover text{
+    opacity: 1;
+}
+
+text{
+    font-size: 10px;
+}
+
+.axis{
+    fill:#bbc7d9;
+    opacity: 1;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: 1px;
+    shape-rendering: crispEdges;
+
+}
+
+.axis text {
+    font-size: 14px;
+}
